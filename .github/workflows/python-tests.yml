@@ -33,3 +33,4 @@ jobs:
           API_TOKEN: ${{ secrets.API_TOKEN }}
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
         run: pytest tests/ -v
+        run: pytest tests/ -v -m live
