@@ -33,3 +33,11 @@ def normalize(data):
 def matrix_multiply(a, b):
     """Multiply two 2-D matrices."""
     return (np.array(a) @ np.array(b)).tolist()
+
+
+
+if __name__ == "__main__":
+    
+    my_np = np.array([1,2,3,4,5,6,7,8,9,0])
+
+    print(descriptive_stats(my_np))
